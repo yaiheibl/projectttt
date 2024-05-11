@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(236, 202, 179);
+    margin: 0 ;
+
+}
+.header-container {
+    background-color:rgb(252, 252, 252);
+    padding: 10px 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.location-container {
+    display: flex;
+}
+.location-container span {
+ text-decoration: underline
+
+}
+.arrow {
+    
+}
+.location-image {
+    width: 50px;
+}
+.arrow {
+    width: 20px;
+    transition: 1s;
+}
+.arrow:hover {
+    transform: rotate(180deg);
+}
+.linls-header {
+    display: flex;
+    align-items: center;
+}
+.plushki-container {
+    
+}
